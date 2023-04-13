@@ -13,7 +13,7 @@ import { ProdutosService } from 'src/app/produtos.service';
 export class DescricaoProdutosComponent {
 
   estoque = 1;
-  quantidade= 0 ;
+  quantidade= 1 ;
   produto: IProduto | undefined;
   constructor(
     private produtosService: ProdutosService,
