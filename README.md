@@ -2,30 +2,43 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
-## Development server
+## Link da aplicação rodando  prowaycomputers.netlify.app
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O ProwayComputers é um site de comércio eletrônico para venda de artigos de informática. O projeto foi desenvolvido utilizando o framework Angular e tem como objetivo ser uma plataforma fácil de usar e intuitiva para o usuário final.
 
-## Code scaffolding
+Requisitos
+Node.js: v14 ou superior
+Angular CLI: v15.2.5 ou superior
+Instalação
+Para rodar o projeto localmente, siga os passos abaixo:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone o repositório:
+bash
+Copy code
+git clone https://github.com/WeldonCarlos/proway-computers.git
+Navegue até a pasta do projeto:
+bash
+cd prowaycomputers
+Instale as dependências do projeto:
+npm install
+Inicie o servidor local:
+ng serve
+Acesse a aplicação pelo navegador:
+Copy code
+http://localhost:4200/
+Funcionalidades
 
-## Build
+## O ProwayComputers oferece as seguintes funcionalidades:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Página inicial com produtos em destaque
+Busca por produtos
+Cadastro e login de usuários
+Adição de produtos ao carrinho de compras
+Finalização de compra
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou submeter um pull request.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## link para acessar o  projeto rodando
-prowaycomputers.netlify.app
 
