@@ -2,8 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
-## Link da aplicação rodando 
- https://prowaycomputers.netlify.app
+## Link da aplicação rodando https://prowaycomputers.netlify.app
+ 
 
 O ProwayComputers é um site de comércio eletrônico para venda de artigos de informática. O projeto foi desenvolvido utilizando o framework Angular e tem como objetivo ser uma plataforma fácil de usar e intuitiva para o usuário final.
 
