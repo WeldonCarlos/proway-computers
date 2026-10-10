@@ -1,45 +1,56 @@
-# ProwayComputers
+# Proway Computers
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+Aplicação de demonstração de uma loja de informática em Angular, com catálogo, pesquisa, descrição dos produtos e carrinho.
 
-## Link da aplicação rodando https://prowaycomputers.netlify.app
- 
+**Demonstração:** [Proway Computers](https://prowaycomputers.netlify.app/)
 
-O ProwayComputers é um site de comércio eletrônico para venda de artigos de informática. O projeto foi desenvolvido utilizando o framework Angular e tem como objetivo ser uma plataforma fácil de usar e intuitiva para o usuário final.
+## O que o projeto apresenta
 
-Requisitos
-Node.js: v14 ou superior
-Angular CLI: v15.2.5 ou superior
-Instalação
-Para rodar o projeto localmente, siga os passos abaixo:
+- Catálogo de produtos e páginas de descrição.
+- Busca por produtos e navegação entre módulos.
+- Carrinho com armazenamento local no navegador.
+- Página de contato e tratamento de rota não encontrada.
 
-Clone o repositório:
-bash
-Copy code
+## Tecnologias
+
+Angular 15 · TypeScript · RxJS · Angular Material · ngx-mask
+
+## Executar localmente
+
+```bash
 git clone https://github.com/WeldonCarlos/proway-computers.git
-Navegue até a pasta do projeto:
-bash
-cd prowaycomputers
-Instale as dependências do projeto:
+cd proway-computers
 npm install
-Inicie o servidor local:
-ng serve
-Acesse a aplicação pelo navegador:
-Copy code
-http://localhost:4200/
-Funcionalidades
+npm start
+```
 
-## O ProwayComputers oferece as seguintes funcionalidades:
+Abra o endereço informado no terminal.
 
-Página inicial com produtos em destaque
-Busca por produtos
-Cadastro e login de usuários
-Adição de produtos ao carrinho de compras
-Finalização de compra
-Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou submeter um pull request.
+## Comandos disponíveis
 
+| Comando | Uso |
+| --- | --- |
+| `npm start` | `ng serve` |
+| `npm run build` | `ng build` |
+| `npm test` | `ng test` |
 
+Os scripts são os definidos em `package.json`; sua presença não indica que foram executados nesta revisão de documentação.
 
+## Estrutura
 
+- `README.md`
+- `angular.json`
+- `docs/`
+- `package.json`
+- `src/`
+- `tsconfig.app.json`
+- `tsconfig.json`
+- `tsconfig.spec.json`
 
+## Estado atual
+
+O projeto demonstra a experiência de compra no front-end. O código analisado não implementa autenticação de usuários nem processamento de pagamentos. Os dados do carrinho são armazenados localmente.
+
+## Autoria
+
+[Weldon Carlos](https://github.com/WeldonCarlos) · [LinkedIn](https://www.linkedin.com/in/weldon-carlos-41b488231/)
